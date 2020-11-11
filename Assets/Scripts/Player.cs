@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public float speed;
     public int Lives;
+    public int jumpHeight;
     Rigidbody2D rigidbody2d;
     SpriteRenderer sprite;
 
@@ -38,4 +39,12 @@ public class Player : MonoBehaviour
         GameObject.Destroy(gameObject);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag != "Enemy")
+        {
+            rigidbody2d.velocity = new Vector2(0, 0);
+            rigidbody2d.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
+        }
+    }
 }

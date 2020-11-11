@@ -47,7 +47,10 @@ public class MovingEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.GetComponent<Player>().Lives--;
-        GameObject.Destroy(gameObject);
+        if (collision.tag == "Player")
+        {
+            collision.GetComponent<Player>().Lives--;
+            GameObject.Destroy(gameObject);
+        }
     }
 }
