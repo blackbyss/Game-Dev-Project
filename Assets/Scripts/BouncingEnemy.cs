@@ -8,7 +8,7 @@ public class BouncingEnemy : MonoBehaviour
     public int jumpHeight;
     void Start()
     {
-        rigidbody2d = this.GetComponent<Rigidbody2D>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,7 +21,7 @@ public class BouncingEnemy : MonoBehaviour
         else
         {
             rigidbody2d.velocity = new Vector2(0, 0);
-            rigidbody2d.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
+            rigidbody2d.AddForce(transform.up* jumpHeight, ForceMode2D.Impulse);
         }
     }
 }
