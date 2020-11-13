@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,12 +12,14 @@ public class Player : MonoBehaviour
     float jumpHeight;
     Rigidbody2D rigidbody2d;
     SpriteRenderer sprite;
+    public Vector3 spawnPoint;
 
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         jumpHeight = defaultJumpHeight;
+        spawnPoint = gameObject.transform.position;
     }
 
     string currentBall = "default";
@@ -60,10 +63,15 @@ public class Player : MonoBehaviour
             GameOver();
         }
     }
-
+    public void resetVelocity()
+    {
+        rigidbody2d.velocity = new Vector2(0, 0);
+    }
     void GameOver()
     {
-        GameObject.Destroy(gameObject);
+        //GameObject.Destroy(gameObject);
+        SceneManager.LoadScene("SampleScene"); // for testing purposes
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -73,6 +81,15 @@ public class Player : MonoBehaviour
             rigidbody2d.velocity = new Vector2(0, 0);
             rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
             doubleJumped = false;
+        }
+        if(collision.tag == "Finish") // win
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        if(collision.tag == "Checkpoint")
+        {
+            spawnPoint = collision.transform.position;
+            spawnPoint.y += 4;
         }
     }
 }
