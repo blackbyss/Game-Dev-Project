@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Checkpoint
+  - Platform
+  - Boost
   layers:
   - Default
   - TransparentFX

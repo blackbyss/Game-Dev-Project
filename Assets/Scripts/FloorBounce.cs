@@ -8,9 +8,9 @@ public class FloorBounce : MonoBehaviour
     public int Boost;
     public int NrOfBoosts;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void ReduceNrOfBoosts()
     {
-        if (NrOfBoosts == 1)
+        if (NrOfBoosts <= 1)
         {
             GameObject.Destroy(gameObject);
         }
@@ -18,6 +18,10 @@ public class FloorBounce : MonoBehaviour
         {
             NrOfBoosts--;
         }
-        collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.up * Boost);
+    }
+
+    public int GetBoost()
+    {
+        return Boost;
     }
 }

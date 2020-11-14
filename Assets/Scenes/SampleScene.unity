@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 146892115}
   m_Layer: 0
   m_Name: boost_platforms
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 263954154}
   m_Layer: 0
   m_Name: Platform_boost (9)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &263954155
 TilemapCollider2D:
@@ -279,7 +279,7 @@ TilemapCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 301513684}
   m_Layer: 0
   m_Name: Platform_boost (1)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &301513685
 TilemapCollider2D:
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 336923467}
   m_Layer: 0
   m_Name: Platform_boost (5)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &336923468
 TilemapCollider2D:
@@ -1009,7 +1009,7 @@ GameObject:
   - component: {fileID: 394570159}
   m_Layer: 0
   m_Name: Platform_boost (3)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &394570160
 TilemapCollider2D:
@@ -79262,7 +79262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 1013363695}
-  speed: 12
+  speed: 3
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -79290,7 +79290,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -79314,7 +79314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 2.24, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -80352,7 +80352,7 @@ GameObject:
   - component: {fileID: 780637046}
   m_Layer: 0
   m_Name: Platform_regular
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81016,7 +81016,7 @@ GameObject:
   - component: {fileID: 848007150}
   m_Layer: 0
   m_Name: Platform_boost (6)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81047,7 +81047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &848007151
 TilemapCollider2D:
@@ -81291,7 +81291,7 @@ GameObject:
   - component: {fileID: 850462512}
   m_Layer: 0
   m_Name: Platform_boost (7)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81322,7 +81322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &850462513
 TilemapCollider2D:
@@ -81538,8 +81538,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
   m_PrefabInstance: {fileID: 6914796751404905333}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &1013363693
-CircleCollider2D:
+--- !u!61 &1013363693
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -81548,12 +81548,22 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.02}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.08
+  m_Size: {x: 0.13, y: 0.13}
+  m_EdgeRadius: 0
 --- !u!4 &1013363695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
@@ -81574,7 +81584,7 @@ GameObject:
   - component: {fileID: 1205678192}
   m_Layer: 0
   m_Name: Platform_boost (2)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81605,7 +81615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &1205678193
 TilemapCollider2D:
@@ -81784,7 +81794,7 @@ GameObject:
   - component: {fileID: 1486237083}
   m_Layer: 0
   m_Name: Platform_boost (8)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81815,7 +81825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &1486237084
 TilemapCollider2D:
@@ -82302,7 +82312,7 @@ GameObject:
   - component: {fileID: 1808111097}
   m_Layer: 0
   m_Name: Platform_boost (10)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82333,7 +82343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &1808111098
 TilemapCollider2D:
@@ -84597,7 +84607,7 @@ GameObject:
   - component: {fileID: 1873044303}
   m_Layer: 0
   m_Name: Platform_boost (4)
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84628,7 +84638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!19719996 &1873044304
 TilemapCollider2D:
@@ -84807,7 +84817,7 @@ GameObject:
   - component: {fileID: 1904697461}
   m_Layer: 0
   m_Name: Platform_boost
-  m_TagString: Untagged
+  m_TagString: Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85020,7 +85030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 300
+  Boost: 30
   NrOfBoosts: 3
 --- !u!1001 &6914796751404905333
 PrefabInstance:
@@ -85085,12 +85095,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime
       objectReference: {fileID: 0}
+    - target: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087087, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6914796750769087086, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+    - target: {fileID: 6914796750769087087, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
 --- !u!1001 &8337069021408624680
 PrefabInstance:

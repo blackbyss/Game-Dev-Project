@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.B))
         {
             currentBall = "doubleBounce";
-            jumpHeight = defaultJumpHeight * 0.7f; //Mutiplied value is sketchy
+            jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
         }
 
         if (Input.GetKey(KeyCode.D))
@@ -76,13 +76,21 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Enemy")
+        if (collision.tag == "Platform")
         {
             rigidbody2d.velocity = new Vector2(0, 0);
             rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
             doubleJumped = false;
         }
-        if(collision.tag == "Finish") // win
+        if (collision.tag == "Boost")
+        {
+            rigidbody2d.velocity = new Vector2(0, 0);
+            int Boost = collision.GetComponent<FloorBounce>().GetBoost();
+            rigidbody2d.AddForce(transform.up * Boost, ForceMode2D.Impulse);
+            collision.GetComponent<FloorBounce>().ReduceNrOfBoosts();
+            doubleJumped = false;
+        }
+        if (collision.tag == "Finish") // win
         {
             SceneManager.LoadScene("SampleScene");
         }
