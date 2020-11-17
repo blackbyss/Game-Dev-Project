@@ -70,7 +70,8 @@ public class Player : MonoBehaviour
     void GameOver()
     {
         //GameObject.Destroy(gameObject);
-        SceneManager.LoadScene("SampleScene"); // for testing purposes
+        Events.EndLevel(false);
+        //SceneManager.LoadScene("SampleScene"); // for testing purposes
 
     }
 
@@ -92,7 +93,8 @@ public class Player : MonoBehaviour
         }
         if (collision.tag == "Finish") // win
         {
-            SceneManager.LoadScene("SampleScene");
+            Events.EndLevel(true);
+            //SceneManager.LoadScene("SampleScene");
         }
         if(collision.tag == "Checkpoint")
         {
