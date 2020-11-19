@@ -7,9 +7,7 @@ public class Invincible : MonoBehaviour
     public int InvincibilityTime = 5;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
         StartCoroutine(Invincibility(collision));
-        
     }
 
     IEnumerator Invincibility(Collider2D collision)

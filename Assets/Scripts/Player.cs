@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public float speed = 12;
     public int Lives = 3;
     public float defaultJumpHeight = 25;
-    float jumpHeight;
+    [HideInInspector] public float jumpHeight;
     Rigidbody2D rigidbody2d;
     SpriteRenderer sprite;
     public Vector3 spawnPoint;
