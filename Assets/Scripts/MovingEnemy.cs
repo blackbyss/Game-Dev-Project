@@ -49,7 +49,10 @@ public class MovingEnemy : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<Player>().Lives--;
+            if (!collision.GetComponent<Player>().isInvincible)
+            {
+                collision.GetComponent<Player>().Lives--;
+            }
             GameObject.Destroy(gameObject);
         }
     }

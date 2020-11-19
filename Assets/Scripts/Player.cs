@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rigidbody2d;
     SpriteRenderer sprite;
     public Vector3 spawnPoint;
+    public bool isInvincible = false;
 
     void Awake()
     {
@@ -63,6 +64,7 @@ public class Player : MonoBehaviour
             GameOver();
         }
     }
+
     public void resetVelocity()
     {
         rigidbody2d.velocity = new Vector2(0, 0);
