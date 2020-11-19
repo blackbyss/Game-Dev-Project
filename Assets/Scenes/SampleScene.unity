@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745f0f867fa9a445902b5db43b1c576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boost: 30
+  Boost: 40
   NrOfBoosts: 3
 --- !u!19719996 &301513685
 TilemapCollider2D:
