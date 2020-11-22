@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     SpriteRenderer sprite;
     public Vector3 spawnPoint;
     public bool isInvincible = false;
+    Animator animator;
 
     public AudioSource VictorySound;
     public AudioSource CheckpointSound;
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
         jumpHeight = defaultJumpHeight;
         spawnPoint = gameObject.transform.position;
         rigidbody2d.gravityScale = defaultGravity;
+        animator = GetComponent<Animator>();
     }
 
     string currentBall = "default";
@@ -94,6 +96,7 @@ public class Player : MonoBehaviour
     {
         if (collision.tag == "Platform")
         {
+            animator.SetTrigger("takeOff");
             rigidbody2d.velocity = new Vector2(0, 0);
             rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
             doubleJumped = false;

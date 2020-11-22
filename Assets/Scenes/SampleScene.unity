@@ -1703,6 +1703,7 @@ GameObject:
   - component: {fileID: 414373938}
   - component: {fileID: 414373940}
   - component: {fileID: 414373939}
+  - component: {fileID: 414373941}
   m_Layer: 0
   m_Name: background
   m_TagString: Untagged
@@ -79710,6 +79711,25 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!95 &414373941
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414373937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e3f24b85d08fb049a01ba077522ab5e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &431698928
 GameObject:
   m_ObjectHideFlags: 0
@@ -82437,6 +82457,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
   m_PrefabInstance: {fileID: 6914796751404905333}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &904462432
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904462431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a4ab6c13bceadc4985a4420d9f42126, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!82 &904462436
 AudioSource:
   m_ObjectHideFlags: 0
