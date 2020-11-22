@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public Vector3 spawnPoint;
     public bool isInvincible = false;
 
+    public AudioSource VictorySound;
+    public AudioSource CheckpointSound;
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -106,11 +108,13 @@ public class Player : MonoBehaviour
         }
         if (collision.tag == "Finish") // win
         {
+            VictorySound.Play();
             Events.EndLevel(true);
             //SceneManager.LoadScene("SampleScene");
         }
         if(collision.tag == "Checkpoint")
         {
+            CheckpointSound.Play();
             spawnPoint = collision.transform.position;
             spawnPoint.y += 4;
         }

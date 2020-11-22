@@ -12,6 +12,8 @@ public class UI : MonoBehaviour
     public TextMeshProUGUI LivesText;
     public Button BackToMenuButton;
 
+    public AudioSource GameoverSound;
+    //public AudioSource VictorySound;
     public AudioSource LifeLossSound;
 
     private int lives = 3;
@@ -50,6 +52,7 @@ public class UI : MonoBehaviour
     {
         if (lives > 0 && value <= 0)
         {
+            GameoverSound.Play();
             Events.EndLevel(false);
         }
         if (lives > value) // if life is lost
