@@ -11,6 +11,10 @@ public class StartGameButton : MonoBehaviour
     public TextMeshProUGUI ButtonTextBox;
     public string ButtonText;
     private Button button;
+
+    public AudioSource myFx;
+    public AudioClip HoverSoundFx;
+    public AudioClip ClickSoundFx;
     public void Awake()
     {
         button = GetComponent<Button>();
@@ -20,7 +24,15 @@ public class StartGameButton : MonoBehaviour
         }
         ButtonTextBox.text = ButtonText;
     }
+    private void HoverSound()
+    {
+        myFx.PlayOneShot(HoverSoundFx);
+    }
 
+    private void ClickSound()
+    {
+        myFx.PlayOneShot(ClickSoundFx);
+    }
     public void Pressed()
     {
         Debug.Log("Level 1 loading...");

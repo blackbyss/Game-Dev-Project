@@ -18,6 +18,7 @@ public class BouncingEnemy : MonoBehaviour
             if (!collision.GetComponent<Player>().isInvincible)
             {
                 collision.GetComponent<Player>().Lives--;
+                Events.SetLives(Events.RequestLives()-1);
             }
             GameObject.Destroy(gameObject);
         }
