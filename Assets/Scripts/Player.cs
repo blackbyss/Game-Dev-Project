@@ -103,6 +103,7 @@ public class Player : MonoBehaviour
         }
         if (collision.tag == "Boost")
         {
+            animator.SetTrigger("takeOff");
             rigidbody2d.velocity = new Vector2(0, 0);
             int Boost = collision.GetComponent<FloorBounce>().GetBoost();
             rigidbody2d.AddForce(transform.up * Boost, ForceMode2D.Impulse);
