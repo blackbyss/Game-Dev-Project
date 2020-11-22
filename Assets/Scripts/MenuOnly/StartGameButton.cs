@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class StartGameButton : MonoBehaviour
 {
     public string LoadedSceneName = "SampleScene";
+    public TextMeshProUGUI ButtonTextBox;
+    public string ButtonText;
     private Button button;
     public void Awake()
     {
@@ -16,6 +18,7 @@ public class StartGameButton : MonoBehaviour
         {
             button.onClick.AddListener(Pressed);
         }
+        ButtonTextBox.text = ButtonText;
     }
 
     public void Pressed()

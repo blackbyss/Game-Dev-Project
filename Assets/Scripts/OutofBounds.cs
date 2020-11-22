@@ -14,6 +14,7 @@ public class OutofBounds : MonoBehaviour
             ball.resetVelocity();
             ball.transform.position = ball.spawnPoint; // current level start coordinates for player
             ball.Lives -= 1;
+            Events.SetLives(ball.Lives);
         }
     }
 }
