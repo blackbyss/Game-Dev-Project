@@ -87103,6 +87103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1013363693, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.12
+      objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -87147,6 +87151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6914796750769087081, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6139734282501593643, guid: b69c92dae6965724ca1dd7e8b3fed645, type: 3}
     - target: {fileID: 6914796750769087083, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: defaultJumpHeight
       value: 35

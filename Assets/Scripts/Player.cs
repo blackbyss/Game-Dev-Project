@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public Vector3 spawnPoint;
     public bool isInvincible = false;
     Animator animator;
+    bool levelComplete = false;
 
     public AudioSource VictorySound;
     public AudioSource CheckpointSound;
@@ -34,49 +35,52 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (!levelComplete)
         {
-            rigidbody2d.velocity = new Vector2(speed * -1, rigidbody2d.velocity.y);
-            sprite.flipX = false;
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            rigidbody2d.velocity = new Vector2(speed, rigidbody2d.velocity.y);
-            sprite.flipX = true;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            currentBall = "doubleBounce";
-            jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
-        }
-        /*
-        if (Input.GetKey(KeyCode.S))
-        {
-            currentBall = "balloon";
-            jumpHeight = defaultJumpHeight * 0.5f;
-            rigidbody2d.gravityScale = 1;
-            transform.localScale = new Vector3(15f, 15f, 1f);
-        }
-        */
-        if (Input.GetKey(KeyCode.D))
-        {
-            currentBall = "default";
-            jumpHeight = defaultJumpHeight;
-            rigidbody2d.gravityScale = defaultGravity;
-            transform.localScale = new Vector3(10f, 10f, 1f);
-        }
-        if (currentBall == "doubleBounce")
-        {
-            if (Input.GetKey(KeyCode.Space) && !doubleJumped)
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
-                rigidbody2d.velocity = new Vector2(0, 0);
-                rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
-                doubleJumped = true;
+                rigidbody2d.velocity = new Vector2(speed * -1, rigidbody2d.velocity.y);
+                sprite.flipX = true;
             }
-        }
-        if (Lives <= 0)
-        {
-            GameOver();
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                rigidbody2d.velocity = new Vector2(speed, rigidbody2d.velocity.y);
+                sprite.flipX = false;
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                currentBall = "doubleBounce";
+                jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
+            }
+            /*
+            if (Input.GetKey(KeyCode.S))
+            {
+                currentBall = "balloon";
+                jumpHeight = defaultJumpHeight * 0.5f;
+                rigidbody2d.gravityScale = 1;
+                transform.localScale = new Vector3(15f, 15f, 1f);
+            }
+            */
+            if (Input.GetKey(KeyCode.D))
+            {
+                currentBall = "default";
+                jumpHeight = defaultJumpHeight;
+                rigidbody2d.gravityScale = defaultGravity;
+                transform.localScale = new Vector3(10f, 10f, 1f);
+            }
+            if (currentBall == "doubleBounce")
+            {
+                if (Input.GetKey(KeyCode.Space) && !doubleJumped)
+                {
+                    rigidbody2d.velocity = new Vector2(0, 0);
+                    rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
+                    doubleJumped = true;
+                }
+            }
+            if (Lives <= 0)
+            {
+                GameOver();
+            }
         }
     }
 
@@ -112,9 +116,13 @@ public class Player : MonoBehaviour
         }
         if (collision.tag == "Finish") // win
         {
-            VictorySound.Play();
-            Events.EndLevel(true);
-            //SceneManager.LoadScene("SampleScene");
+            if (!levelComplete)
+            {
+                VictorySound.Play();
+                Events.EndLevel(true);
+                //SceneManager.LoadScene("SampleScene");
+                levelComplete = true;
+            }
         }
         if(collision.tag == "Checkpoint")
         {

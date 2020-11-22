@@ -1,0 +1,1012 @@
+fileFormatVersion: 2
+guid: b69c92dae6965724ca1dd7e8b3fed645
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6139734282501593643
+    second: ballguy_0
+  - first:
+      213: 7593693020626682181
+    second: ballguy_1
+  - first:
+      213: 3377797536105659933
+    second: ballguy_2
+  - first:
+      213: 8754871287160620104
+    second: ballguy_3
+  - first:
+      213: -5077899075857345345
+    second: ballguy_4
+  - first:
+      213: 6735178538383441481
+    second: ballguy_5
+  - first:
+      213: -6868875170750891236
+    second: ballguy_6
+  - first:
+      213: 5438957638721167457
+    second: ballguy_7
+  - first:
+      213: 7249173665212755560
+    second: ballguy_8
+  - first:
+      213: 5389595768112328600
+    second: ballguy_9
+  - first:
+      213: 416905735855680149
+    second: ballguy_10
+  - first:
+      213: -4390384626257893717
+    second: ballguy_11
+  - first:
+      213: 4210923661504712467
+    second: ballguy_12
+  - first:
+      213: 1995285422673472106
+    second: ballguy_13
+  - first:
+      213: -4800057252388986952
+    second: ballguy_14
+  - first:
+      213: 7001688614774572001
+    second: ballguy_15
+  - first:
+      213: -96436942889745070
+    second: ballguy_16
+  - first:
+      213: 5627082920115850655
+    second: ballguy_17
+  - first:
+      213: 4561110390150343363
+    second: ballguy_18
+  - first:
+      213: 7867053679401691697
+    second: ballguy_19
+  - first:
+      213: -7336845975974274092
+    second: ballguy_20
+  - first:
+      213: -801166421593413766
+    second: ballguy_21
+  - first:
+      213: 8289435614548068630
+    second: ballguy_22
+  - first:
+      213: 9099220324101856563
+    second: ballguy_23
+  - first:
+      213: 4981090671445237036
+    second: ballguy_24
+  - first:
+      213: 1071309594973458001
+    second: ballguy_25
+  - first:
+      213: -946473740264144618
+    second: ballguy_26
+  - first:
+      213: -5098068676363707972
+    second: ballguy_27
+  - first:
+      213: -3209604232812004281
+    second: ballguy_28
+  - first:
+      213: -4492644298486454670
+    second: ballguy_29
+  - first:
+      213: 4666948281102592927
+    second: ballguy_30
+  - first:
+      213: 2172072822040115689
+    second: ballguy_31
+  - first:
+      213: -2035776375025585752
+    second: ballguy_32
+  - first:
+      213: -1442031708637446617
+    second: ballguy_33
+  - first:
+      213: 5346321675175457273
+    second: ballguy_34
+  - first:
+      213: -4671230605548747298
+    second: ballguy_35
+  - first:
+      213: 1686646630773428241
+    second: ballguy_36
+  - first:
+      213: 2533328784884735219
+    second: ballguy_37
+  - first:
+      213: -7131331175301512392
+    second: ballguy_38
+  - first:
+      213: 7330707034551708851
+    second: ballguy_39
+  - first:
+      213: -8597073739461824154
+    second: ballguy_40
+  - first:
+      213: -8588428703574066372
+    second: ballguy_41
+  - first:
+      213: -8260785354376608744
+    second: ballguy_42
+  - first:
+      213: -5458980547817620450
+    second: ballguy_43
+  - first:
+      213: -8900004083290534483
+    second: ballguy_44
+  - first:
+      213: 2978615625099609807
+    second: ballguy_45
+  - first:
+      213: -6894256048548432430
+    second: ballguy_46
+  - first:
+      213: -4151576229311893016
+    second: ballguy_47
+  - first:
+      213: 1025175118977544934
+    second: ballguy_48
+  - first:
+      213: 5273426127704477817
+    second: ballguy_49
+  - first:
+      213: -2464677821866267445
+    second: ballguy_50
+  - first:
+      213: 4553996332430421717
+    second: ballguy_51
+  - first:
+      213: -6326565451101196041
+    second: ballguy_52
+  - first:
+      213: 5488340783175297094
+    second: ballguy_53
+  - first:
+      213: 7306570331137492924
+    second: ballguy_54
+  - first:
+      213: 829927186073464413
+    second: ballguy_55
+  - first:
+      213: 1323467839963889252
+    second: ballguy_56
+  - first:
+      213: -5347695000764680694
+    second: ballguy_57
+  - first:
+      213: 8467046227847064369
+    second: ballguy_58
+  - first:
+      213: -797916163810984783
+    second: ballguy_59
+  - first:
+      213: -6245958499911191832
+    second: ballguy_60
+  - first:
+      213: 5437292172633928734
+    second: ballguy_61
+  - first:
+      213: -4288473764563438467
+    second: ballguy_62
+  - first:
+      213: -5539003337436560618
+    second: ballguy_63
+  - first:
+      213: -5311315656723885578
+    second: ballguy_64
+  - first:
+      213: 481992410955788942
+    second: ballguy_65
+  - first:
+      213: -7614685160334815572
+    second: ballguy_66
+  - first:
+      213: 2719965093348385372
+    second: ballguy_67
+  - first:
+      213: 5011059274428569880
+    second: ballguy_68
+  - first:
+      213: 8240341812394873688
+    second: ballguy_69
+  - first:
+      213: -6078108810911744474
+    second: ballguy_70
+  - first:
+      213: -6193529804095355898
+    second: ballguy_71
+  - first:
+      213: -2366519099376257016
+    second: ballguy_72
+  - first:
+      213: 5668354193570671193
+    second: ballguy_73
+  - first:
+      213: -5196744172383609153
+    second: ballguy_74
+  - first:
+      213: 5712505402982087815
+    second: ballguy_75
+  - first:
+      213: 797529362416312662
+    second: ballguy_76
+  - first:
+      213: -192214571976637766
+    second: ballguy_77
+  - first:
+      213: 8621948841485870292
+    second: ballguy_0
+  - first:
+      213: 8840920447688361601
+    second: ballguy_1
+  - first:
+      213: -6300791912159060869
+    second: ballguy_2
+  - first:
+      213: 289950862292143909
+    second: ballguy_3
+  - first:
+      213: -4174066525532837849
+    second: ballguy_4
+  - first:
+      213: 825738118773172572
+    second: ballguy_5
+  - first:
+      213: 7966241525953252321
+    second: ballguy_6
+  - first:
+      213: -7175324133263623043
+    second: ballguy_7
+  - first:
+      213: 9088134033413102706
+    second: ballguy_8
+  - first:
+      213: 1641294164337399332
+    second: ballguy_9
+  - first:
+      213: -2370346004951115248
+    second: ballguy_10
+  - first:
+      213: -1311283312065496474
+    second: ballguy_11
+  - first:
+      213: -2378905445067201115
+    second: ballguy_12
+  - first:
+      213: 2930720991746568169
+    second: ballguy_13
+  - first:
+      213: 92362954217811634
+    second: ballguy_14
+  - first:
+      213: -4936522663318551773
+    second: ballguy_15
+  - first:
+      213: -200322609356139349
+    second: ballguy_16
+  - first:
+      213: 3628574562530293163
+    second: ballguy_17
+  - first:
+      213: 897584011902058489
+    second: ballguy_18
+  - first:
+      213: 2524653624436247885
+    second: ballguy_19
+  - first:
+      213: -7165660737048015599
+    second: ballguy_20
+  - first:
+      213: 1944845282837786417
+    second: ballguy_21
+  - first:
+      213: 7369193103350471234
+    second: ballguy_22
+  - first:
+      213: 829494507876976988
+    second: ballguy_23
+  - first:
+      213: -996391069315740209
+    second: ballguy_24
+  - first:
+      213: 7717855645242767842
+    second: ballguy_25
+  - first:
+      213: -2665264871699731000
+    second: ballguy_26
+  - first:
+      213: -1047725519145419698
+    second: ballguy_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballguy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42b505ac057a770800000000000000
+      internalID: 8621948841485870292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c3f35e4241ba70800000000000000
+      internalID: 8840920447688361601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cda1093271f88a0800000000000000
+      internalID: -6300791912159060869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fcd35e5cc160400800000000000000
+      internalID: 289950862292143909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72824c43c9cb216c0800000000000000
+      internalID: -4174066525532837849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5969fea17c957b00800000000000000
+      internalID: 825738118773172572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebc86df576cd8e60800000000000000
+      internalID: 7966241525953252321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cb880a7b02c6c90800000000000000
+      internalID: -7175324133263623043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd9bc90c98f1e70800000000000000
+      internalID: 9088134033413102706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4269045b85c07c610800000000000000
+      internalID: 1641294164337399332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a5f1cfdd6da1fd0800000000000000
+      internalID: -2370346004951115248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a307076c26dcde0800000000000000
+      internalID: -1311283312065496474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e6880a1e6cfed0800000000000000
+      internalID: -2378905445067201115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efa5d0e6330ca820800000000000000
+      internalID: 2930720991746568169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beee841e93284100800000000000000
+      internalID: 92362954217811634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3238b33eac2fd7bb0800000000000000
+      internalID: -4936522663318551773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba419dce5af483df0800000000000000
+      internalID: -200322609356139349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f2a0f6594b5230800000000000000
+      internalID: 3628574562530293163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fffd7937ebd47c00800000000000000
+      internalID: 897584011902058489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 4
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dcc61681f590320800000000000000
+      internalID: 2524653624436247885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d0a4366857e8c90800000000000000
+      internalID: -7165660737048015599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fe3a20b7a7dfa10800000000000000
+      internalID: 1944845282837786417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a96767512a44660800000000000000
+      internalID: 7369193103350471234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 20
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59052d2cd4f28b00800000000000000
+      internalID: 829494507876976988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd40100a9b1c22f0800000000000000
+      internalID: -996391069315740209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9307281d45b1b60800000000000000
+      internalID: 7717855645242767842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cda20a68b3130bd0800000000000000
+      internalID: -2665264871699731000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cb931013bb571f0800000000000000
+      internalID: -1047725519145419698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
