@@ -13,7 +13,8 @@ public class OutofBounds : MonoBehaviour
             // fall out of bounds and u lose life, but get sent to start/checkpoint (if there are any)
             ball.resetVelocity();
             ball.transform.position = ball.spawnPoint; // current level start coordinates for player
-            ball.Lives -= 1;
+            ball.gotHit();
+            Events.SetLives(ball.Lives);
         }
     }
 }

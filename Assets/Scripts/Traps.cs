@@ -11,8 +11,9 @@ public class Traps : MonoBehaviour
         {
             ball.resetVelocity();
             ball.transform.position = ball.spawnPoint;
-     
-            ball.Lives -= 1;
+
+            ball.gotHit();
+            Events.SetLives(ball.Lives);
         }
     }
 }
