@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.Space) && !doubleJumped)
                 {
+                    animator.SetTrigger("doubleBounce");
                     rigidbody2d.velocity = new Vector2(0, 0);
                     rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
                     doubleJumped = true;
