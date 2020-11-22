@@ -86,8 +86,8 @@ public class Player : MonoBehaviour
     }
     void GameOver()
     {
-        //GameObject.Destroy(gameObject);
         Events.EndLevel(false);
+        GameObject.Destroy(gameObject);
         //SceneManager.LoadScene("SampleScene"); // for testing purposes
 
     }
