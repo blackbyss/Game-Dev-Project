@@ -12,6 +12,8 @@ public class UI : MonoBehaviour
     public TextMeshProUGUI LivesText;
     public Button BackToMenuButton;
 
+    public AudioSource LifeLossSound;
+
     private int lives = 3;
 
     private void Awake()
@@ -50,8 +52,11 @@ public class UI : MonoBehaviour
         {
             Events.EndLevel(false);
         }
+        if (lives > value) // if life is lost
+        {
+            LifeLossSound.Play();
+        }
         lives = Mathf.Max(0, value);
-
         LivesText.text = "Lives: " + lives;
     }
     public int OnRequestLives() => lives;
