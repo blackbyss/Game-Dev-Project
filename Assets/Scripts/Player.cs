@@ -95,7 +95,13 @@ public class Player : MonoBehaviour
         //SceneManager.LoadScene("SampleScene"); // for testing purposes
 
     }
-
+    public void gotHit()
+    {
+        if (!isInvincible)
+        {
+            Lives -= 1;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Platform")

@@ -7,16 +7,20 @@ public class FloorBounce : MonoBehaviour
 {
     public int Boost;
     public int NrOfBoosts;
+    public bool dissapearing = false;
 
     public void ReduceNrOfBoosts()
     {
-        if (NrOfBoosts <= 1)
+        if (dissapearing)
         {
-            GameObject.Destroy(gameObject);
-        }
-        else
-        {
-            NrOfBoosts--;
+            if (NrOfBoosts <= 1)
+            {
+                GameObject.Destroy(gameObject);
+            }
+            else
+            {
+                NrOfBoosts--;
+            }
         }
     }
 

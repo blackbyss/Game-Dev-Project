@@ -241,6 +241,7 @@ MonoBehaviour:
   MainButtons: {fileID: 1345824008}
   LevelButtons: {fileID: 338518236}
   BackButton: {fileID: 236989887}
+  BackButt: {fileID: 0}
 --- !u!1001 &54714408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1189,6 +1190,10 @@ PrefabInstance:
       propertyPath: ButtonTextBox
       value: 
       objectReference: {fileID: 460687290}
+    - target: {fileID: 1483755733734318116, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
+      propertyPath: LoadedSceneName
+      value: Level 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
 --- !u!1 &1086480037 stripped
@@ -1940,6 +1945,10 @@ PrefabInstance:
       propertyPath: ButtonTextBox
       value: 
       objectReference: {fileID: 1971415022}
+    - target: {fileID: 1483755733734318116, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
+      propertyPath: LoadedSceneName
+      value: Level 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
 --- !u!82 &1826161636 stripped
