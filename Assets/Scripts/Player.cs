@@ -125,6 +125,7 @@ public class Player : MonoBehaviour
         {
             if (!levelComplete)
             {
+                resetVelocity();
                 VictorySound.Play();
                 Events.EndLevel(true);
                 //SceneManager.LoadScene("SampleScene");
