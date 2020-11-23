@@ -3,7 +3,10 @@ guid: f6bc205d7e7b44947900d7719cc427e1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - VictorySound: {instanceID: 0}
+  - CheckpointSound: {instanceID: 0}
+  - BounceAudio: {fileID: 11400000, guid: f0c6b94b70aa1364cb24f7dd25e51161, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

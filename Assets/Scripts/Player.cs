@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
     public AudioSource VictorySound;
     public AudioSource CheckpointSound;
+    public AudioClipGroup BounceAudio;
+
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -108,6 +110,7 @@ public class Player : MonoBehaviour
         if (collision.tag == "Platform")
         {
             animator.SetTrigger("takeOff");
+            BounceAudio.Play();
             rigidbody2d.velocity = new Vector2(0, 0);
             rigidbody2d.AddForce(transform.up * jumpHeight, ForceMode2D.Impulse);
             doubleJumped = false;
@@ -115,6 +118,7 @@ public class Player : MonoBehaviour
         if (collision.tag == "Boost")
         {
             animator.SetTrigger("takeOff");
+            BounceAudio.Play();
             rigidbody2d.velocity = new Vector2(0, 0);
             int Boost = collision.GetComponent<FloorBounce>().GetBoost();
             rigidbody2d.AddForce(transform.up * Boost, ForceMode2D.Impulse);
