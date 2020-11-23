@@ -245,8 +245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainButtons: {fileID: 1345824008}
   LevelButtons: {fileID: 338518236}
-  BackButton: {fileID: 0}
-  BackButt: {fileID: 0}
+  BackButton: {fileID: 1496933903}
+  BackButt: {fileID: 1496933904}
 --- !u!1001 &54714408
 PrefabInstance:
   m_ObjectHideFlags: 0
