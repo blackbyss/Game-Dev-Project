@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0457d7f19cf7264bac385216603859b, type: 3}
+  m_Name: Bounce
+  m_EditorClassIdentifier: 
+  VolumeMin: 1
+  VolumeMax: 1
+  PitchMin: 1
+  PitchMax: 1
+  Cooldown: 0.1
+  Clips:
+  - {fileID: 8300000, guid: 5d1a61c9cc6d92545859dc791aada211, type: 3}
+  - {fileID: 8300000, guid: 364b0bfbecd93d24285ba42f679e309f, type: 3}
+  - {fileID: 8300000, guid: fb552b10c3254514b88f2bbc22502ece, type: 3}
