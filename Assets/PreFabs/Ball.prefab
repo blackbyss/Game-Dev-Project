@@ -125,11 +125,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   Lives: 3
-  defaultJumpHeight: 35
+  defaultJumpHeight: 30
   defaultGravity: 8
   jumpHeight: 0
   spawnPoint: {x: 0, y: 0, z: 0}
   isInvincible: 0
+  controllers:
+  - {fileID: 9100000, guid: 0f9be20d3fffccd40ab64fea0ce496fd, type: 2}
+  - {fileID: 9100000, guid: 920970a687b50db4d87bc74db35edaf4, type: 2}
+  - {fileID: 9100000, guid: 21b645e8b5e591449a26f52f91b57695, type: 2}
+  - {fileID: 9100000, guid: 404aa30e7b41d194a96561eed5a39294, type: 2}
   VictorySound: {fileID: 904462436}
   CheckpointSound: {fileID: 904462437}
   BounceAudio: {fileID: 11400000, guid: f0c6b94b70aa1364cb24f7dd25e51161, type: 2}
@@ -361,7 +366,7 @@ Animator:
   m_GameObject: {fileID: 6914796750769087084}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a4ab6c13bceadc4985a4420d9f42126, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0f9be20d3fffccd40ab64fea0ce496fd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
