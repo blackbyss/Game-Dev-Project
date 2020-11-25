@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public bool isInvincible = false;
     Animator animator;
     bool levelComplete = false;
+    public RuntimeAnimatorController[] controllers;
 
     public AudioSource VictorySound;
     public AudioSource CheckpointSound;
@@ -52,22 +53,25 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 currentBall = "doubleBounce";
+                animator.runtimeAnimatorController = controllers[1];
                 jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
+                rigidbody2d.gravityScale = defaultGravity;
+                transform.localScale = new Vector3(10f, 10f, 1f);
                 sprite.flipY = false;
             }
-            /*
             if (Input.GetKey(KeyCode.S))
             {
                 currentBall = "balloon";
-                jumpHeight = defaultJumpHeight * 0.5f;
+                animator.runtimeAnimatorController = controllers[2];
+                jumpHeight = defaultJumpHeight * 0.3f;
                 rigidbody2d.gravityScale = 1;
                 transform.localScale = new Vector3(15f, 15f, 1f);
                 sprite.flipY = false;
             }
-            */
             if (Input.GetKey(KeyCode.D))
             {
                 currentBall = "default";
+                animator.runtimeAnimatorController = controllers[0];
                 jumpHeight = defaultJumpHeight;
                 rigidbody2d.gravityScale = defaultGravity;
                 transform.localScale = new Vector3(10f, 10f, 1f);
@@ -76,8 +80,10 @@ public class Player : MonoBehaviour
             if (Input.GetKey(KeyCode.R))
             {
                 currentBall = "reverseGravity";
+                animator.runtimeAnimatorController = controllers[3];
                 jumpHeight = -defaultJumpHeight;
                 rigidbody2d.gravityScale = -defaultGravity;
+                transform.localScale = new Vector3(10f, 10f, 1f);
                 sprite.flipY = true;
             }
             if (currentBall == "doubleBounce")
