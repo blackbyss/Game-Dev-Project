@@ -41,12 +41,12 @@ public class Player : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
-                rigidbody2d.velocity = new Vector2(speed * -1, rigidbody2d.velocity.y);
+                transform.position += (Vector3) new Vector2(Input.GetAxisRaw("Horizontal") * Time.deltaTime * speed, 0);
                 sprite.flipX = true;
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
-                rigidbody2d.velocity = new Vector2(speed, rigidbody2d.velocity.y);
+                transform.position += (Vector3)new Vector2(Input.GetAxisRaw("Horizontal") * Time.deltaTime * speed, 0);
                 sprite.flipX = false;
             }
             if (Input.GetKey(KeyCode.A))

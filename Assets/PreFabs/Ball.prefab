@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: -1483419155611388301}
   - component: {fileID: 166506800585144569}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: Ball
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,9 +123,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6bc205d7e7b44947900d7719cc427e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 20
   Lives: 3
-  defaultJumpHeight: 30
+  defaultJumpHeight: 35
   defaultGravity: 8
   jumpHeight: 0
   spawnPoint: {x: 0, y: 0, z: 0}

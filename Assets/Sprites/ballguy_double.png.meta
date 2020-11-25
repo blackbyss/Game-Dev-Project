@@ -1,0 +1,895 @@
+fileFormatVersion: 2
+guid: 4400c64e89de5724f91b7d6b1078e711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5820776059637551042
+    second: ballguy_double_0
+  - first:
+      213: 1648010534042935161
+    second: ballguy_double_1
+  - first:
+      213: -794337735797822293
+    second: ballguy_double_2
+  - first:
+      213: 3828192531793302606
+    second: ballguy_double_3
+  - first:
+      213: -4443273566468542529
+    second: ballguy_double_4
+  - first:
+      213: 72663572261821035
+    second: ballguy_double_5
+  - first:
+      213: 5683660760821417991
+    second: ballguy_double_6
+  - first:
+      213: -8255358854541381879
+    second: ballguy_double_7
+  - first:
+      213: -8031586807528533998
+    second: ballguy_double_8
+  - first:
+      213: 1115333736060200794
+    second: ballguy_double_9
+  - first:
+      213: 926001872890454368
+    second: ballguy_double_10
+  - first:
+      213: -7859971668138124874
+    second: ballguy_double_11
+  - first:
+      213: 8026853405969943037
+    second: ballguy_double_12
+  - first:
+      213: 3137903690847965127
+    second: ballguy_double_13
+  - first:
+      213: 3877053795801999200
+    second: ballguy_double_14
+  - first:
+      213: -4782556725540236972
+    second: ballguy_double_15
+  - first:
+      213: 4870421008288765
+    second: ballguy_double_16
+  - first:
+      213: 2570071431372323272
+    second: ballguy_double_17
+  - first:
+      213: 1894231244973633276
+    second: ballguy_double_18
+  - first:
+      213: 8516569766297391946
+    second: ballguy_double_19
+  - first:
+      213: -3505264184466829632
+    second: ballguy_double_20
+  - first:
+      213: 3522550039493064979
+    second: ballguy_double_21
+  - first:
+      213: -542317759905594285
+    second: ballguy_double_22
+  - first:
+      213: 6624508112245016579
+    second: ballguy_double_23
+  - first:
+      213: -2800292219912903353
+    second: ballguy_double_24
+  - first:
+      213: 9052180084488152801
+    second: ballguy_double_25
+  - first:
+      213: 4406572200950303400
+    second: ballguy_double_26
+  - first:
+      213: 8493732211733480805
+    second: ballguy_double_27
+  - first:
+      213: 8921015821424256547
+    second: ballguy_double_28
+  - first:
+      213: -4720205181130496401
+    second: ballguy_double_29
+  - first:
+      213: 8306081148336574539
+    second: ballguy_double_30
+  - first:
+      213: -2820147286667342228
+    second: ballguy_double_31
+  - first:
+      213: 803239628734404489
+    second: ballguy_double_32
+  - first:
+      213: -8358172342146166891
+    second: ballguy_double_33
+  - first:
+      213: -6070428813161674873
+    second: ballguy_double_34
+  - first:
+      213: 5913050410323311814
+    second: ballguy_double_35
+  - first:
+      213: 4135666699084189155
+    second: ballguy_double_36
+  - first:
+      213: 3166799455107162398
+    second: ballguy_double_37
+  - first:
+      213: 7730805938703022994
+    second: ballguy_double_38
+  - first:
+      213: -1497608605982277572
+    second: ballguy_double_0
+  - first:
+      213: 4812528836562346345
+    second: ballguy_double_1
+  - first:
+      213: 6992528885767409439
+    second: ballguy_double_2
+  - first:
+      213: 452230333898559376
+    second: ballguy_double_3
+  - first:
+      213: 8866989037035351751
+    second: ballguy_double_4
+  - first:
+      213: 6221111812125215260
+    second: ballguy_double_5
+  - first:
+      213: 4048235071509987636
+    second: ballguy_double_6
+  - first:
+      213: -6646716724294442213
+    second: ballguy_double_7
+  - first:
+      213: -857620852952658339
+    second: ballguy_double_8
+  - first:
+      213: 7707054719984275888
+    second: ballguy_double_9
+  - first:
+      213: 91258571116387377
+    second: ballguy_double_10
+  - first:
+      213: -2014515707968107438
+    second: ballguy_double_11
+  - first:
+      213: -1493176795933952362
+    second: ballguy_double_12
+  - first:
+      213: 7081814804613020016
+    second: ballguy_double_13
+  - first:
+      213: -8280524173477500702
+    second: ballguy_double_14
+  - first:
+      213: 6144579458908944194
+    second: ballguy_double_15
+  - first:
+      213: 7697258456354255974
+    second: ballguy_double_16
+  - first:
+      213: -8269710753661104142
+    second: ballguy_double_17
+  - first:
+      213: -2865358008339011796
+    second: ballguy_double_18
+  - first:
+      213: -5955099160579514633
+    second: ballguy_double_19
+  - first:
+      213: -6355233511481157329
+    second: ballguy_double_20
+  - first:
+      213: -6679809736678090757
+    second: ballguy_double_21
+  - first:
+      213: 4971477503463559746
+    second: ballguy_double_22
+  - first:
+      213: -2088219531719990621
+    second: ballguy_double_23
+  - first:
+      213: 2722983042295480185
+    second: ballguy_double_24
+  - first:
+      213: 5288184151105558934
+    second: ballguy_double_25
+  - first:
+      213: 87223637674714658
+    second: ballguy_double_26
+  - first:
+      213: -7554572883720643075
+    second: ballguy_double_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballguy_double_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30cbd358ec673be0800000000000000
+      internalID: -1497608605982277572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616f9e9a7989c240800000000000000
+      internalID: 4812528836562346345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f03dd39f37a0160800000000000000
+      internalID: 6992528885767409439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0ea8b715a64600800000000000000
+      internalID: 452230333898559376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce66c3cc8fdd0b70800000000000000
+      internalID: 8866989037035351751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac5b57b34d55650800000000000000
+      internalID: 6221111812125215260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43181ac59583e2830800000000000000
+      internalID: 4048235071509987636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1328c5ea5e12c3a0800000000000000
+      internalID: -6646716724294442213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e0acbc06e1914f0800000000000000
+      internalID: -857620852952658339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b119212f65f4fa60800000000000000
+      internalID: 7707054719984275888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1a1adf27344100800000000000000
+      internalID: 91258571116387377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ccd1013a00b04e0800000000000000
+      internalID: -2014515707968107438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69630838d9b274be0800000000000000
+      internalID: -1493176795933952362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079bf023b09a74260800000000000000
+      internalID: 7081814804613020016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8a6d5e22ba51d80800000000000000
+      internalID: -8280524173477500702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247fd66667ee54550800000000000000
+      internalID: 6144579458908944194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664fd53c8c722da60800000000000000
+      internalID: 7697258456354255974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4dc462e51c3d80800000000000000
+      internalID: -8269710753661104142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27e1ae92143c38d0800000000000000
+      internalID: -2865358008339011796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe5e6b6ddc3b5da0800000000000000
+      internalID: -5955099160579514633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d183faccadc7a0800000000000000
+      internalID: -6355233511481157329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf75b168f6c8c43a0800000000000000
+      internalID: -6679809736678090757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2429aca037c3ef440800000000000000
+      internalID: 4971477503463559746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a22cc656672503e0800000000000000
+      internalID: -2088219531719990621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f3f6566aaf9c520800000000000000
+      internalID: 2722983042295480185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995f79a777636940800000000000000
+      internalID: 5288184151105558934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2266e93bf61e53100800000000000000
+      internalID: 87223637674714658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballguy_double_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd5804fcf3c82790800000000000000
+      internalID: -7554572883720643075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

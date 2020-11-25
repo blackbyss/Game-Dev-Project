@@ -125666,11 +125666,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -6.32
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.z
@@ -125707,6 +125707,14 @@ PrefabInstance:
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914796750769087083, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: defaultGravity
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914796750769087083, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: defaultJumpHeight
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_Name
