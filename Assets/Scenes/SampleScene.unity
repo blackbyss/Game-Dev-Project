@@ -125666,11 +125666,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.32
+      value: -5.46
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087080, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_LocalPosition.z
@@ -125718,7 +125718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_Name
-      value: Slime
+      value: Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}

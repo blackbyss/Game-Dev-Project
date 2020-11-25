@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
             {
                 currentBall = "doubleBounce";
                 jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
+                sprite.flipY = false;
             }
             /*
             if (Input.GetKey(KeyCode.S))
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
                 jumpHeight = defaultJumpHeight * 0.5f;
                 rigidbody2d.gravityScale = 1;
                 transform.localScale = new Vector3(15f, 15f, 1f);
+                sprite.flipY = false;
             }
             */
             if (Input.GetKey(KeyCode.D))
@@ -69,6 +71,14 @@ public class Player : MonoBehaviour
                 jumpHeight = defaultJumpHeight;
                 rigidbody2d.gravityScale = defaultGravity;
                 transform.localScale = new Vector3(10f, 10f, 1f);
+                sprite.flipY = false;
+            }
+            if (Input.GetKey(KeyCode.R))
+            {
+                currentBall = "reverseGravity";
+                jumpHeight = -defaultJumpHeight;
+                rigidbody2d.gravityScale = -defaultGravity;
+                sprite.flipY = true;
             }
             if (currentBall == "doubleBounce")
             {
