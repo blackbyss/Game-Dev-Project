@@ -16,7 +16,7 @@ public class UI : MonoBehaviour
     //public AudioSource VictorySound;
     public AudioSource LifeLossSound;
 
-    private int lives = 3;
+    private int lives = 5;
 
     private void Awake()
     {

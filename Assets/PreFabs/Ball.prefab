@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  Lives: 3
+  Lives: 5
   defaultJumpHeight: 30
   defaultGravity: 8
   jumpHeight: 0

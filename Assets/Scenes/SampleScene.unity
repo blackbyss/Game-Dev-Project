@@ -120315,7 +120315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lives: 3'
+  m_text: 'Lives: 5'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ffe1d0f3f3bf440468d2066349b36eb2, type: 2}
   m_sharedMaterial: {fileID: -4292303342952860836, guid: ffe1d0f3f3bf440468d2066349b36eb2, type: 2}
