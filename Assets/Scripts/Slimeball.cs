@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Slimeball : MonoBehaviour
 {
+    private void OnBecameInvisible()
+    {
+        GameObject.Destroy(gameObject);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
