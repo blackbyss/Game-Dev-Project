@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5838487528334357880}
   - component: {fileID: 6367698395894410726}
   - component: {fileID: 9093632609078638886}
+  - component: {fileID: 2125124693}
   m_Layer: 0
   m_Name: ShootingEnemy
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -1860764429
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300020, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
+  m_Sprite: {fileID: 21300030, guid: 9d69ae98725365b4b94189120dc1b40a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,3 +126,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13, y: 0.13}
   m_EdgeRadius: 0
+--- !u!95 &2125124693
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7067016731309878437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82cf374ac5475ee45ae9d8f835026395, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

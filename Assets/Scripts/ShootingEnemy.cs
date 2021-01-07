@@ -10,9 +10,11 @@ public class ShootingEnemy : MonoBehaviour
     public float speed = 1; //force of projection
     float shootingTime; //local to store last time we shot so we can make sure its done every 3s
     Vector2 targetPos;
+    Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         target = GameObject.FindWithTag("Player");
     }
 
@@ -26,10 +28,10 @@ public class ShootingEnemy : MonoBehaviour
     {
         if (Time.time > shootingTime)
         {
-            shootingTime = Time.time + fireRate; 
+            shootingTime = Time.time + fireRate;
+            animator.SetTrigger("shoot");
             GameObject projectile = Instantiate(slimeBall, gameObject.transform.position, Quaternion.identity);
             Vector2 direction = ((Vector2)transform.position - targetPos) * -1;
-            Debug.Log(target.transform.position);
             projectile.GetComponent<Rigidbody2D>().AddForce(direction.normalized * speed, ForceMode2D.Impulse);
         }
     }
