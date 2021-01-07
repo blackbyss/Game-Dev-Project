@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed = 12;
-    public int Lives = 3;
+    public int Lives = 5;
     public float defaultJumpHeight = 35;
     public int defaultGravity = 8;
     [HideInInspector] public float jumpHeight;
