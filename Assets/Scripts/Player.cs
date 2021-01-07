@@ -40,36 +40,19 @@ public class Player : MonoBehaviour
     {
         if (!levelComplete)
         {
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if (Input.GetKey(KeyCode.A))
             {
                 transform.position += (Vector3) new Vector2(Input.GetAxisRaw("Horizontal") * Time.deltaTime * speed, 0);
                 sprite.flipX = true;
             }
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.D))
             {
                 transform.position += (Vector3)new Vector2(Input.GetAxisRaw("Horizontal") * Time.deltaTime * speed, 0);
                 sprite.flipX = false;
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.Alpha1))
             {
-                currentBall = "doubleBounce";
-                animator.runtimeAnimatorController = controllers[1];
-                jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
-                rigidbody2d.gravityScale = defaultGravity;
-                transform.localScale = new Vector3(10f, 10f, 1f);
-                sprite.flipY = false;
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                currentBall = "balloon";
-                animator.runtimeAnimatorController = controllers[2];
-                jumpHeight = defaultJumpHeight * 0.3f;
-                rigidbody2d.gravityScale = 1;
-                transform.localScale = new Vector3(15f, 15f, 1f);
-                sprite.flipY = false;
-            }
-            if (Input.GetKey(KeyCode.D))
-            {
+                resetVelocity();
                 currentBall = "default";
                 animator.runtimeAnimatorController = controllers[0];
                 jumpHeight = defaultJumpHeight;
@@ -77,8 +60,29 @@ public class Player : MonoBehaviour
                 transform.localScale = new Vector3(10f, 10f, 1f);
                 sprite.flipY = false;
             }
-            if (Input.GetKey(KeyCode.R))
+            if (Input.GetKey(KeyCode.Alpha2))
             {
+                resetVelocity();
+                currentBall = "doubleBounce";
+                animator.runtimeAnimatorController = controllers[1];
+                jumpHeight = defaultJumpHeight * 0.7f; //Multiplied value is sketchy
+                rigidbody2d.gravityScale = defaultGravity;
+                transform.localScale = new Vector3(10f, 10f, 1f);
+                sprite.flipY = false;
+            }
+            if (Input.GetKey(KeyCode.Alpha3))
+            {
+                resetVelocity();
+                currentBall = "balloon";
+                animator.runtimeAnimatorController = controllers[2];
+                jumpHeight = defaultJumpHeight * 0.3f;
+                rigidbody2d.gravityScale = 1;
+                transform.localScale = new Vector3(15f, 15f, 1f);
+                sprite.flipY = false;
+            }
+            if (Input.GetKey(KeyCode.Alpha4))
+            {
+                resetVelocity();
                 currentBall = "reverseGravity";
                 animator.runtimeAnimatorController = controllers[3];
                 jumpHeight = -defaultJumpHeight;
