@@ -20,5 +20,17 @@ public class Slimeball : MonoBehaviour
             }
             GameObject.Destroy(gameObject);
         }
+        if (collision.tag == "Platform")
+        {
+            GameObject.Destroy(gameObject);
+        }
+        if (collision.tag == "Traps")
+        {
+            GameObject.Destroy(gameObject);
+        }
+        if (collision.tag == "Boost")
+        {
+            GameObject.Destroy(gameObject);
+        }
     }
 }
