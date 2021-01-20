@@ -26,9 +26,9 @@ public class AudioSourcePool : MonoBehaviour
             }
         }
         AudioSource newSource = GameObject.Instantiate(AudioSourcePrefab, transform);
+        Debug.Log("Instantiate audio source");
         audioSources.Add(newSource);
 
         return newSource;
     }
-
 }
