@@ -318,16 +318,35 @@ PrefabInstance:
       propertyPath: m_text
       value: 'New ball!
 
-
-        4 - Anti-gravity ball!'
+        4 - Reverse Gravity ball!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594417138498908993, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ffe1d0f3f3bf440468d2066349b36eb2, type: 2}
+    - target: {fileID: 4594417138498908993, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4292303342952860836, guid: ffe1d0f3f3bf440468d2066349b36eb2, type: 2}
+    - target: {fileID: 4594417138498908993, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
+      propertyPath: m_margin.z
+      value: 2.5737267
       objectReference: {fileID: 0}
     - target: {fileID: 4594417138498908994, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 7.07
+      value: -15.74
       objectReference: {fileID: 0}
     - target: {fileID: 4594417138498908994, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.68
+      value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594417138498908994, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 16.54374
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594417138498908994, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 11.77
       objectReference: {fileID: 0}
     - target: {fileID: 4594417138529799847, guid: 8679f3ae9c94a7b47bf10ddec8307242, type: 3}
       propertyPath: m_LocalPosition.x

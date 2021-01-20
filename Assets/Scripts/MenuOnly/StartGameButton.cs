@@ -35,7 +35,6 @@ public class StartGameButton : MonoBehaviour
     }
     public void Pressed()
     {
-        Debug.Log("Level 1 loading...");
         SceneManager.LoadScene(LoadedSceneName);
     }
 }
