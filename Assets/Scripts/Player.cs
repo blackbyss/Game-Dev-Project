@@ -78,7 +78,6 @@ public class Player : MonoBehaviour
                     sprite.flipY = false;
                     cooldown = Time.time + cooldownTime;
                 }
-                Debug.Log(accessLevel);
                 if (Input.GetKey(KeyCode.Alpha3) && accessLevel >= 2 && currentBall != "balloon")
                 {
                     resetVelocity();

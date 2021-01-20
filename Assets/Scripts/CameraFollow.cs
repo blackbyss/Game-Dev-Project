@@ -10,8 +10,14 @@ public class CameraFollow : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 cameraPosition = character.position + offset;
-        Vector3 adjustedPosition = Vector3.Lerp(transform.position, cameraPosition, speed * Time.deltaTime);
-        transform.position = new Vector3(adjustedPosition.x, 5, -10);
+        try
+        {
+            Vector3 cameraPosition = character.position + offset;
+            Vector3 adjustedPosition = Vector3.Lerp(transform.position, cameraPosition, speed * Time.deltaTime);
+            transform.position = new Vector3(adjustedPosition.x, 5, -10);
+        } catch (MissingReferenceException e)
+        {
+            //Usually happens when the player wins/loses the level
+        }
     }
 }

@@ -20,8 +20,14 @@ public class ShootingEnemy : MonoBehaviour
 
     void Update()
     {
-        targetPos = target.transform.position;
-        Fire(); //Constantly fire
+        try
+        {
+            targetPos = target.transform.position;
+            Fire(); //Constantly fire
+        } catch (MissingReferenceException e)
+        {
+            //Usually happens when the player wins/loses the level
+        }
     }
 
     private void Fire()
