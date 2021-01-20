@@ -1309,7 +1309,7 @@ PrefabInstance:
       objectReference: {fileID: 2119878140}
     - target: {fileID: 1483755733734318116, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
       propertyPath: LoadedSceneName
-      value: SampleScene
+      value: Level 1
       objectReference: {fileID: 0}
     - target: {fileID: 8969911617191720719, guid: b53b1e2ba05cfb14fbb6965cb6063b15, type: 3}
       propertyPath: m_Delegates.Array.size
