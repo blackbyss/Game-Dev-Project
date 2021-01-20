@@ -1427,7 +1427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8846287503209704967, guid: 921a405507f0b934eaaa73ba28cbf912, type: 3}
       propertyPath: disableOnce
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8846287503209704967, guid: 921a405507f0b934eaaa73ba28cbf912, type: 3}
       propertyPath: menuButtonController
