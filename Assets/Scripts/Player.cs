@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     public RuntimeAnimatorController[] controllers;
     float cooldown;
     public float cooldownTime;
+    public Abilities taskbar;
+    int accessLevel;
 
     public AudioSource VictorySound;
     public AudioSource CheckpointSound;
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
+        accessLevel = taskbar.accessLevel;
         rigidbody2d = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         jumpHeight = defaultJumpHeight;
@@ -75,7 +78,8 @@ public class Player : MonoBehaviour
                     sprite.flipY = false;
                     cooldown = Time.time + cooldownTime;
                 }
-                if (Input.GetKey(KeyCode.Alpha3))
+                Debug.Log(accessLevel);
+                if (Input.GetKey(KeyCode.Alpha3) && accessLevel >= 2)
                 {
                     resetVelocity();
                     currentBall = "balloon";
@@ -86,7 +90,7 @@ public class Player : MonoBehaviour
                     sprite.flipY = false;
                     cooldown = Time.time + cooldownTime;
                 }
-                if (Input.GetKey(KeyCode.Alpha4))
+                if (Input.GetKey(KeyCode.Alpha4) && accessLevel >= 3)
                 {
                     resetVelocity();
                     currentBall = "reverseGravity";

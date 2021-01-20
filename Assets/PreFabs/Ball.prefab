@@ -136,6 +136,7 @@ MonoBehaviour:
   - {fileID: 9100000, guid: 21b645e8b5e591449a26f52f91b57695, type: 2}
   - {fileID: 9100000, guid: 404aa30e7b41d194a96561eed5a39294, type: 2}
   cooldownTime: 0.8
+  taskbar: {fileID: 4778189026330254498, guid: db2c0639f0e86894d9bf50224853c6da, type: 3}
   VictorySound: {fileID: 904462436}
   CheckpointSound: {fileID: 904462437}
   BounceAudio: {fileID: 11400000, guid: f0c6b94b70aa1364cb24f7dd25e51161, type: 2}

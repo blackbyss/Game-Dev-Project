@@ -400,6 +400,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db2c0639f0e86894d9bf50224853c6da, type: 3}
+--- !u!114 &282633151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4778189026330254498, guid: db2c0639f0e86894d9bf50224853c6da, type: 3}
+  m_PrefabInstance: {fileID: 282633150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33e920bfcb66184782ba27580dc52c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &356641393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125725,6 +125736,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6914796750769087083, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
+      propertyPath: taskbar
+      value: 
+      objectReference: {fileID: 282633151}
     - target: {fileID: 6914796750769087084, guid: 49a608dddd8a06a449163fe0c11eb941, type: 3}
       propertyPath: m_Name
       value: Ball

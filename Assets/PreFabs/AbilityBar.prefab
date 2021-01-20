@@ -128,10 +128,12 @@ MonoBehaviour:
   cooldown2: 0.8
   ability2: 50
   abilityImage3: {fileID: 4778189027232361556}
+  Extra3: {fileID: 4778189028111556620}
   ability3IsActive: 1
   cooldown3: 0.8
   ability3: 51
   abilityImage4: {fileID: 4778189028407392118}
+  Extra4: {fileID: 4778189027535778680}
   ability4IsActive: 1
   cooldown4: 0.8
   ability4: 52

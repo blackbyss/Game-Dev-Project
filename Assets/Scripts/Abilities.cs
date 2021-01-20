@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Abilities : MonoBehaviour
 {
+    public int accessLevel;
+
     [Header("Ability 1")]
     public Image abilityImage1;
     public bool ability1IsActive;
@@ -21,6 +23,7 @@ public class Abilities : MonoBehaviour
 
     [Header("Ability 3")]
     public Image abilityImage3;
+    public Image Extra3;
     public bool ability3IsActive;
     public float cooldown3;
     bool isCooldown3 = false;
@@ -28,6 +31,7 @@ public class Abilities : MonoBehaviour
 
     [Header("Ability 4")]
     public Image abilityImage4;
+    public Image Extra4;
     public bool ability4IsActive;
     public float cooldown4;
     bool isCooldown4 = false;
@@ -36,6 +40,18 @@ public class Abilities : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (accessLevel <= 1)
+        {
+            abilityImage3.enabled = false;
+            Extra3.enabled = false;
+            abilityImage4.enabled = false;
+            Extra4.enabled = false;
+        }
+        if (accessLevel <= 2)
+        {
+            abilityImage4.enabled = false;
+            Extra4.enabled = false;
+        }
         if (ability1IsActive) abilityImage1.fillAmount = 0;
         if (ability2IsActive) abilityImage2.fillAmount = 0;
         if (ability3IsActive) abilityImage3.fillAmount = 0;
