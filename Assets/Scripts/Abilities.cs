@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Abilities : MonoBehaviour
 {
     public int accessLevel;
+    string lastBallMode;
 
     [Header("Ability 1")]
     public Image abilityImage1;
@@ -40,6 +41,7 @@ public class Abilities : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lastBallMode = "default";
         if (accessLevel <= 1)
         {
             abilityImage3.enabled = false;
@@ -69,8 +71,9 @@ public class Abilities : MonoBehaviour
 
     void Ability1()
     {
-        if(Input.GetKey(ability1) && isCooldown1 == false && ability1IsActive == true)
+        if(Input.GetKey(ability1) && isCooldown1 == false && ability1IsActive == true && lastBallMode != "default")
         {
+            lastBallMode = "default";
             isCooldown1 = true;
             abilityImage1.fillAmount = 1;
         }
@@ -89,8 +92,9 @@ public class Abilities : MonoBehaviour
 
     void Ability2()
     {
-        if (Input.GetKey(ability2) && isCooldown2 == false && ability2IsActive == true)
+        if (Input.GetKey(ability2) && isCooldown2 == false && ability2IsActive == true && lastBallMode != "doubleBounce")
         {
+            lastBallMode = "doubleBounce";
             isCooldown2 = true;
             abilityImage2.fillAmount = 1;
         }
@@ -109,8 +113,9 @@ public class Abilities : MonoBehaviour
 
     void Ability3()
     {
-        if (Input.GetKey(ability3) && isCooldown3 == false && ability3IsActive == true)
+        if (Input.GetKey(ability3) && isCooldown3 == false && ability3IsActive == true && lastBallMode != "balloon")
         {
+            lastBallMode = "balloon";
             isCooldown3 = true;
             abilityImage3.fillAmount = 1;
         }
@@ -129,8 +134,9 @@ public class Abilities : MonoBehaviour
 
     void Ability4()
     {
-        if (Input.GetKey(ability4) && isCooldown4 == false && ability4IsActive == true)
+        if (Input.GetKey(ability4) && isCooldown4 == false && ability4IsActive == true && lastBallMode != "reverseGravity")
         {
+            lastBallMode = "reverseGravity";
             isCooldown4 = true;
             abilityImage4.fillAmount = 1;
         }

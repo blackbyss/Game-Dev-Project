@@ -56,7 +56,7 @@ public class Player : MonoBehaviour
                 sprite.flipX = false;
             }
             if (Time.time > cooldown) {
-                if (Input.GetKey(KeyCode.Alpha1))
+                if (Input.GetKey(KeyCode.Alpha1) && currentBall != "default")
                 {
                     resetVelocity();
                     currentBall = "default";
@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
                     sprite.flipY = false;
                     cooldown = Time.time + cooldownTime;
                 }
-                if (Input.GetKey(KeyCode.Alpha2))
+                if (Input.GetKey(KeyCode.Alpha2) && currentBall != "doubleBounce")
                 {
                     resetVelocity();
                     currentBall = "doubleBounce";
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
                     cooldown = Time.time + cooldownTime;
                 }
                 Debug.Log(accessLevel);
-                if (Input.GetKey(KeyCode.Alpha3) && accessLevel >= 2)
+                if (Input.GetKey(KeyCode.Alpha3) && accessLevel >= 2 && currentBall != "balloon")
                 {
                     resetVelocity();
                     currentBall = "balloon";
@@ -90,7 +90,7 @@ public class Player : MonoBehaviour
                     sprite.flipY = false;
                     cooldown = Time.time + cooldownTime;
                 }
-                if (Input.GetKey(KeyCode.Alpha4) && accessLevel >= 3)
+                if (Input.GetKey(KeyCode.Alpha4) && accessLevel >= 3 && currentBall != "reverseGravity")
                 {
                     resetVelocity();
                     currentBall = "reverseGravity";
@@ -121,7 +121,7 @@ public class Player : MonoBehaviour
 
     public void resetVelocity()
     {
-        rigidbody2d.velocity = new Vector2(0, 0);
+        rigidbody2d.velocity = new Vector2(0, 10);
     }
     void GameOver()
     {
