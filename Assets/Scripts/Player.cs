@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
 
     public void resetVelocity()
     {
-        rigidbody2d.velocity = new Vector2(0, 10);
+        rigidbody2d.velocity = new Vector2(0, 0);
     }
     void GameOver()
     {
