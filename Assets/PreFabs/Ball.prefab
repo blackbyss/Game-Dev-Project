@@ -131,7 +131,7 @@ MonoBehaviour:
   spawnPoint: {x: 0, y: 0, z: 0}
   isInvincible: 0
   controllers:
-  - {fileID: 0}
+  - {fileID: 9100000, guid: baf125fdb289db041aef9af91cfe0779, type: 2}
   - {fileID: 9100000, guid: 920970a687b50db4d87bc74db35edaf4, type: 2}
   - {fileID: 9100000, guid: 21b645e8b5e591449a26f52f91b57695, type: 2}
   - {fileID: 9100000, guid: 404aa30e7b41d194a96561eed5a39294, type: 2}
