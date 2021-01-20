@@ -9,7 +9,10 @@ public class ExtraBounce : MonoBehaviour
     public bool MultipleUse = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(Invincibility(collision));
+        if (collision.tag == "Player")
+        {
+            StartCoroutine(Invincibility(collision));
+        }
     }
 
     IEnumerator Invincibility(Collider2D collision)
