@@ -15,7 +15,7 @@ public class Slimeball : MonoBehaviour
         {
             if (!collision.GetComponent<Player>().isInvincible)
             {
-                collision.GetComponent<Player>().Lives--;
+                collision.GetComponent<Player>().gotHit();
                 Events.SetLives(Events.RequestLives() - 1);
             }
             GameObject.Destroy(gameObject);
